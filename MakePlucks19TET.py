@@ -71,5 +71,5 @@ PluckSeries=[]
 for i in range(len(sounds)):
     PluckSeries+=normalize(sounds[i])
     PluckSeries+=Space
-savesound(PluckSeries,"plucks.wav"%i)
+savesound(PluckSeries,"plucks.wav")
     
